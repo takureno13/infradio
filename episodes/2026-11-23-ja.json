@@ -200,7 +200,8 @@
     "分散ストレージは各ノードのディスクを束ねる",
     "Prismはクラスタ管理の顔、2つの顔がある"
    ],
-   "url": "https://www.nutanix.com/content/dam/nutanix/documents/certifications/advanced-admin-aos.pdf"
+   "url": "https://www.nutanix.com/content/dam/nutanix/documents/certifications/advanced-admin-aos.pdf",
+   "figure": "figures/2026-11-23-lesson.svg"
   }
  ],
  "opening": [

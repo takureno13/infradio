@@ -210,6 +210,12 @@ main{max-width:1280px;margin:0 auto;padding:16px}
 #card .site{font:700 17px var(--mono);color:var(--yellow);letter-spacing:1px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 #card .ttl{font-size:24px;font-weight:800;line-height:1.4;display:-webkit-box;-webkit-line-clamp:6;-webkit-box-orient:vertical;overflow:hidden}
 #card.noimg .ttl{font-size:40px;-webkit-line-clamp:3}
+/* a figure drawn for the item (a diagram): the whole right column, shown whole, never cropped */
+#fig{position:absolute;left:992px;top:150px;width:896px;height:789px;padding:18px;background:rgba(22,25,35,.92);border:1px solid var(--line);border-radius:14px;opacity:0;pointer-events:none;transform:translateY(-12px);transition:opacity .45s ease .25s,transform .45s ease .25s}
+.has-fig #fig{opacity:1;pointer-events:auto;transform:none}
+#fig img{width:100%;height:100%;object-fit:contain;display:block}
+.item .figwrap{margin:10px 0}
+.item .figwrap img{width:100%;height:auto;display:block;border-radius:10px;background:#0f1219;border:1px solid var(--line)}
 #card .desc{display:none;font-size:20px;line-height:1.5;color:#c9ccd6;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 #card.noimg .desc{display:-webkit-box}
 #card .open{margin-top:auto;font:700 16px var(--mono);color:var(--muted);letter-spacing:2px}
@@ -386,6 +392,9 @@ html.v #card .site{font-size:22px}
 html.v #card .ttl{font-size:30px;-webkit-line-clamp:1}
 html.v #card .open{display:none}
 html.v .has-card #panel{top:840px;height:484px;padding:34px 48px 24px}
+html.v #fig{left:48px;top:256px;width:984px;height:560px;padding:24px}
+html.v .has-fig #panel{top:840px;height:484px;padding:34px 48px 24px}
+html.v .has-fig #cam{left:636px;top:1348px;width:396px;height:340px}
 html.v .has-card #panel h2{font-size:62px;margin:16px 0 24px}
 html.v .has-card #panel li{font-size:44px}
 html.v .has-card #panel ul{gap:18px}
@@ -455,6 +464,7 @@ html.phone #share span{display:none}
         <div class="corner c1"></div><div class="corner c2"></div><div class="corner c3"></div><div class="corner c4"></div>
         <div class="credit" id="camCredit" hidden></div>
       </div>
+      <div id="fig"><img alt=""></div>
       <div id="cap"><span></span></div>
       <div id="bar"><b></b></div>
     </div>
@@ -779,7 +789,9 @@ function showPart(i) {
   const el = $("panel"); el.innerHTML = `<div class="fit">${partHtml(ep.segments[i])}</div>`;
   fitPanel();
   el.classList.remove("enter"); void el.offsetWidth; el.classList.add("enter");
-  showCard(ep.segments[i].kind === "news" ? ep.news[ep.segments[i].index].link : null);
+  const seg = ep.segments[i], item = seg.kind === "news" ? ep.news[seg.index] : null;
+  showCard(item && !item.figure ? item.link : null);
+  showFig(item ? item.figure : null);
   document.querySelectorAll("#toc button").forEach(b => b.classList.toggle("cur", +b.dataset.seg === i));
 }
 // jump to a part of the show (a topic)
@@ -852,6 +864,12 @@ function showCard(link) {
   };
   img.onerror = next;
   next();
+}
+// a figure drawn for the item (a diagram): shown whole, in place of the link card
+function showFig(src) {
+  const fig = $("fig");
+  $("stage").classList.toggle("has-fig", !!src);
+  if (src) fig.querySelector("img").src = src;
 }
 $("card").addEventListener("click", () => audio.pause());
 
@@ -1022,6 +1040,7 @@ async function load(date, lang = LANG, at = 0) {
     const src = srcOf(n), img = n.link?.image && n.link.status !== 404;
     return `<article class="item"><button class="jump" data-seg="${newsSeg(j)}" title="${tr("jump")}"><span class="d">${String(j + 1).padStart(2, "0")}</span><b>${esc(n.label)}</b><i>${mmss(ep.segments[newsSeg(j)]?.start || 0)}</i></button>`
       + (img ? `<a class="pic" href="${esc(n.link.url)}" target="_blank" rel="noopener noreferrer"><img src="${esc(n.link.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.remove()"></a>` : "")
+      + (n.figure ? `<div class="figwrap"><img src="${esc(n.figure)}" alt="" loading="lazy"></div>` : "")
       + `<ul class="pts">${n.points.map((x, k) => `<li><b>${esc(x)}</b>${n.details?.[k] ? `<span>${esc(n.details[k])}</span>` : ""}</li>`).join("")}</ul>`
       + `<div class="srcs">${src ? linkLine(src, tr("source") + tr("colon")) : ""}${n.link?.found_by ? linkLine(n.link, tr("related") + tr("colon")) : ""}</div></article>`;
   }).join("");
