@@ -1298,7 +1298,8 @@ async function init() {
   const [want, wantLang] = location.hash.slice(1).split("/");
   let saved = null; try { saved = localStorage.getItem("lang"); } catch {}
   const pref = wantLang || saved || ((navigator.language || "").toLowerCase().startsWith("ja") ? "ja" : "en");
-  load(eps.some(e => e.date === want) ? want : eps[0].date, pref);
+  const latest = eps.reduce((a, e) => (e.date > a ? e.date : a), eps[0].date);
+  load(eps.some(e => e.date === want) ? want : latest, pref);
 }
 init();
 </script>
