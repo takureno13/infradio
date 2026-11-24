@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" font-family="sans-serif">
+  <rect x="0" y="0" width="1200" height="675" rx="12" ry="12" fill="#171a26"/>
+  <text x="60" y="52" font-size="22" fill="#9aa0ae">今日の英語：数字と単位を伝える（帯域・容量・時刻）</text>
+  <text x="60" y="104" font-size="40" font-weight="bold" fill="#ffd028">帯域・容量・作業時刻を数字と単位で伝える</text>
+  <line x1="60" y1="130" x2="1140" y2="130" stroke="#3a4058" stroke-width="2"/>
+  <text x="60" y="200" font-size="44" font-weight="bold" fill="#e8eaf2">It's 10 gigabits <tspan fill="#9aa0ae">/</tspan> per second.</text>
+  <text x="60" y="240" font-size="26" fill="#9aa0ae">10ギガビット毎秒です</text>
+  <text x="60" y="315" font-size="44" font-weight="bold" fill="#e8eaf2">We need <tspan fill="#9aa0ae">/</tspan> 500 gigabytes <tspan fill="#9aa0ae">/</tspan> of storage.</text>
+  <text x="60" y="355" font-size="26" fill="#9aa0ae">500ギガバイトのストレージが必要です</text>
+  <text x="60" y="430" font-size="44" font-weight="bold" fill="#e8eaf2">The maintenance window <tspan fill="#9aa0ae">/</tspan></text>
+  <text x="60" y="484" font-size="44" font-weight="bold" fill="#e8eaf2">is from 2 a.m. <tspan fill="#9aa0ae">/</tspan> to 4 a.m.</text>
+  <text x="60" y="524" font-size="26" fill="#9aa0ae">メンテナンスの時間帯は午前2時から4時です</text>
+  <line x1="60" y1="562" x2="1140" y2="562" stroke="#3a4058" stroke-width="2"/>
+  <text x="60" y="606" font-size="26" fill="#e8eaf2"><tspan fill="#ffd028">まとめ：</tspan>〜 gigabits per second ／ need 〜 gigabytes of 〜 ／ from 〜 to 〜</text>
+  <text x="60" y="646" font-size="22" fill="#9aa0ae">gigabit（速さ）と gigabyte（容量）は別物：1バイト＝8ビット ／ a.m.＝午前、p.m.＝午後</text>
+</svg>
