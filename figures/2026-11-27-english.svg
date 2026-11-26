@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" font-family="sans-serif" lang="ja">
+  <rect x="0" y="0" width="1200" height="675" rx="12" ry="12" fill="#171a26"/>
+  <text x="60" y="62" font-size="24" fill="#9aa0ae">今日の英語：確認をお願いするとき</text>
+  <text x="60" y="122" font-size="40" font-weight="bold" fill="#ffd028">チームのチャットや口頭で、確認をお願いするとき</text>
+  <line x1="60" y1="150" x2="1140" y2="150" stroke="#9aa0ae" stroke-opacity="0.4" stroke-width="2"/>
+  <text x="60" y="220" font-size="44" font-weight="bold" fill="#e8eaf2">Could you check / the server status?</text>
+  <text x="60" y="264" font-size="26" fill="#9aa0ae">サーバーの状態を確認してもらえますか</text>
+  <text x="60" y="370" font-size="44" font-weight="bold" fill="#e8eaf2">Could you let me know / when it's done?</text>
+  <text x="60" y="414" font-size="26" fill="#9aa0ae">終わったら教えてもらえますか</text>
+  <text x="60" y="520" font-size="44" font-weight="bold" fill="#e8eaf2">I'll check / and get back to you.</text>
+  <text x="60" y="564" font-size="26" fill="#9aa0ae">確認して折り返し連絡します</text>
+  <line x1="60" y1="600" x2="1140" y2="600" stroke="#9aa0ae" stroke-opacity="0.4" stroke-width="2"/>
+  <text x="60" y="642" font-size="24" fill="#9aa0ae">まとめ：Could you check 〜? ／ let me know when it's done ／ I'll check and get back to you.</text>
+</svg>
