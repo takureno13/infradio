@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" font-family="sans-serif">
+  <rect x="0" y="0" width="1200" height="675" rx="12" ry="12" fill="#171a26"/>
+  <text x="60" y="58" font-size="22" fill="#9aa0ae">今日の英語：会議の相づちと切り返し</text>
+  <text x="60" y="112" font-size="42" font-weight="bold" fill="#ffd028">会議での相づちと、話に加わるひと言</text>
+  <line x1="60" y1="140" x2="1140" y2="140" stroke="#ffd028" stroke-width="3"/>
+  <text x="60" y="215" font-size="28" font-weight="bold" fill="#ffd028">1</text>
+  <text x="110" y="215" font-size="48" font-weight="bold" fill="#e8eaf2">That makes sense.</text>
+  <text x="110" y="258" font-size="26" fill="#9aa0ae">なるほど、その通りですね</text>
+  <line x1="60" y1="292" x2="1140" y2="292" stroke="#3a3f52" stroke-width="1.5"/>
+  <text x="60" y="362" font-size="28" font-weight="bold" fill="#ffd028">2</text>
+  <text x="110" y="362" font-size="48" font-weight="bold" fill="#e8eaf2">I see.</text>
+  <text x="110" y="405" font-size="26" fill="#9aa0ae">なるほど、分かりました</text>
+  <line x1="60" y1="439" x2="1140" y2="439" stroke="#3a3f52" stroke-width="1.5"/>
+  <text x="60" y="509" font-size="28" font-weight="bold" fill="#ffd028">3</text>
+  <text x="110" y="509" font-size="48" font-weight="bold" fill="#e8eaf2">Could I / add something / here?</text>
+  <text x="110" y="552" font-size="26" fill="#9aa0ae">ここで一言加えてもいいですか</text>
+  <line x1="60" y1="592" x2="1140" y2="592" stroke="#ffd028" stroke-width="2"/>
+  <text x="60" y="638" font-size="22" fill="#9aa0ae">まとめ：納得 → That makes sense.　／　理解 → I see.　／　発言したい → Could I add something here?</text>
+</svg>

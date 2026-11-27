@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" font-family="sans-serif">
+  <defs>
+    <marker id="aw" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#e8eaf2"/>
+    </marker>
+    <marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#e5484d"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="675" rx="12" fill="#171a26"/>
+
+  <text x="600" y="62" text-anchor="middle" font-size="44" font-weight="bold" fill="#e8eaf2">3階層の困りごと</text>
+  <text x="600" y="110" text-anchor="middle" font-size="28" fill="#9aa0b4">調理台＝サーバー　通路＝ネットワーク　倉庫＝ストレージ</text>
+
+  <rect x="30" y="140" width="370" height="460" rx="12" fill="none" stroke="#3a4058" stroke-width="2"/>
+  <rect x="415" y="140" width="370" height="460" rx="12" fill="none" stroke="#3a4058" stroke-width="2"/>
+  <rect x="800" y="140" width="370" height="460" rx="12" fill="none" stroke="#3a4058" stroke-width="2"/>
+
+  <!-- ① 増やすとき -->
+  <text x="215" y="188" text-anchor="middle" font-size="32" font-weight="bold" fill="#e8eaf2">① 増やすとき</text>
+  <rect x="55" y="225" width="100" height="62" rx="6" fill="#2a3045" stroke="#e8eaf2" stroke-width="2"/>
+  <text x="105" y="266" text-anchor="middle" font-size="28" fill="#e8eaf2">調理台</text>
+  <rect x="165" y="225" width="100" height="62" rx="6" fill="#2a3045" stroke="#e8eaf2" stroke-width="2"/>
+  <text x="215" y="266" text-anchor="middle" font-size="28" fill="#e8eaf2">調理台</text>
+  <rect x="280" y="225" width="100" height="62" rx="6" fill="none" stroke="#ffd028" stroke-width="3" stroke-dasharray="8 5"/>
+  <text x="330" y="266" text-anchor="middle" font-size="28" font-weight="bold" fill="#ffd028">＋1台</text>
+
+  <line x1="330" y1="290" x2="330" y2="326" stroke="#e5484d" stroke-width="3" marker-end="url(#ar)"/>
+  <rect x="55" y="330" width="325" height="50" rx="6" fill="#2a3045" stroke="#e5484d" stroke-width="2.5" stroke-dasharray="8 5"/>
+  <text x="217" y="365" text-anchor="middle" font-size="28" fill="#e8eaf2">通路 <tspan fill="#e5484d">見直し</tspan></text>
+
+  <line x1="330" y1="383" x2="330" y2="416" stroke="#e5484d" stroke-width="3" marker-end="url(#ar)"/>
+  <rect x="55" y="420" width="325" height="90" rx="6" fill="#2a3045" stroke="#e5484d" stroke-width="2.5" stroke-dasharray="8 5"/>
+  <line x1="75" y1="450" x2="155" y2="450" stroke="#6b7290" stroke-width="3"/>
+  <line x1="75" y1="480" x2="155" y2="480" stroke="#6b7290" stroke-width="3"/>
+  <text x="250" y="475" text-anchor="middle" font-size="28" fill="#e8eaf2">倉庫 <tspan fill="#e5484d">見直し</tspan></text>
+
+  <text x="215" y="568" text-anchor="middle" font-size="32" font-weight="bold" fill="#ffd028">手直しが広い</text>
+
+  <!-- ② 更新するとき -->
+  <text x="600" y="188" text-anchor="middle" font-size="32" font-weight="bold" fill="#e8eaf2">② 更新するとき</text>
+  <rect x="450" y="215" width="300" height="55" rx="6" fill="#2a3045" stroke="#e8eaf2" stroke-width="2"/>
+  <text x="600" y="253" text-anchor="middle" font-size="28" fill="#e8eaf2">調理台</text>
+
+  <line x1="525" y1="272" x2="525" y2="312" stroke="#e5484d" stroke-width="3" stroke-dasharray="6 5"/>
+  <path d="M512,282 L538,306 M538,282 L512,306" stroke="#e5484d" stroke-width="4"/>
+  <line x1="675" y1="272" x2="675" y2="311" stroke="#e8eaf2" stroke-width="3" marker-end="url(#aw)"/>
+
+  <rect x="470" y="315" width="110" height="48" rx="4" fill="#e5484d" fill-opacity="0.25" stroke="#e5484d" stroke-width="2.5"/>
+  <text x="525" y="349" text-anchor="middle" font-size="28" fill="#e5484d">工事中</text>
+  <rect x="620" y="315" width="110" height="48" rx="4" fill="#2a3045" stroke="#e8eaf2" stroke-width="2.5"/>
+  <text x="675" y="349" text-anchor="middle" font-size="28" fill="#e8eaf2">営業中</text>
+
+  <rect x="450" y="363" width="300" height="147" rx="6" fill="#2a3045" stroke="#e8eaf2" stroke-width="2"/>
+  <text x="600" y="420" text-anchor="middle" font-size="32" fill="#e8eaf2">倉庫</text>
+  <text x="600" y="472" text-anchor="middle" font-size="28" fill="#9aa0b4">入口＝制御部×2</text>
+
+  <text x="600" y="568" text-anchor="middle" font-size="32" font-weight="bold" fill="#ffd028">作業中は性能 半分</text>
+
+  <!-- ③ ふだんの管理 -->
+  <text x="985" y="188" text-anchor="middle" font-size="32" font-weight="bold" fill="#e8eaf2">③ ふだんの管理</text>
+
+  <text x="878" y="262" text-anchor="middle" font-size="28" fill="#9aa0b4">A班</text>
+  <text x="990" y="262" text-anchor="middle" font-size="28" fill="#9aa0b4">B班</text>
+  <text x="1102" y="262" text-anchor="middle" font-size="28" fill="#9aa0b4">C班</text>
+
+  <rect x="830" y="285" width="96" height="110" rx="6" fill="#2a3045" stroke="#e8eaf2" stroke-width="2"/>
+  <text x="878" y="350" text-anchor="middle" font-size="28" fill="#e8eaf2">調理台</text>
+  <rect x="942" y="285" width="96" height="110" rx="6" fill="#2a3045" stroke="#e8eaf2" stroke-width="2"/>
+  <text x="990" y="350" text-anchor="middle" font-size="28" fill="#e8eaf2">通路</text>
+  <rect x="1054" y="285" width="96" height="110" rx="6" fill="#2a3045" stroke="#e8eaf2" stroke-width="2"/>
+  <text x="1102" y="350" text-anchor="middle" font-size="28" fill="#e8eaf2">倉庫</text>
+
+  <line x1="934" y1="225" x2="934" y2="420" stroke="#e5484d" stroke-width="4"/>
+  <line x1="1046" y1="225" x2="1046" y2="420" stroke="#e5484d" stroke-width="4"/>
+
+  <text x="990" y="472" text-anchor="middle" font-size="28" fill="#e8eaf2">全体が見えにくい</text>
+
+  <text x="985" y="568" text-anchor="middle" font-size="32" font-weight="bold" fill="#ffd028">サイロ化</text>
+
+  <text x="600" y="645" text-anchor="middle" font-size="28" fill="#e8eaf2">今日の用語 <tspan fill="#ffd028">サイロ化</tspan>＝箱ごとに管理が分かれること</text>
+</svg>
