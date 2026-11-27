@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" font-family="sans-serif">
+  <rect x="0" y="0" width="1200" height="675" rx="12" ry="12" fill="#171a26"/>
+
+  <text x="60" y="52" font-size="22" fill="#9aa0ae">いんふらじお ｜ 今日の英語：障害の第一報を伝える</text>
+  <text x="60" y="108" font-size="42" font-weight="bold" fill="#ffd028">障害の第一報 ─ 何が・いつから・対応中</text>
+  <line x1="60" y1="136" x2="1140" y2="136" stroke="#ffd028" stroke-width="2" opacity="0.6"/>
+
+  <text x="60" y="212" font-size="34" font-weight="bold" fill="#ffd028">1</text>
+  <text x="104" y="212" font-size="44" font-weight="bold" fill="#e8eaf2">We are seeing / errors on the login page.</text>
+  <text x="104" y="252" font-size="26" fill="#9aa0ae">ログイン画面でエラーが出ています</text>
+  <line x1="60" y1="286" x2="1140" y2="286" stroke="#2e3346" stroke-width="2"/>
+
+  <text x="60" y="352" font-size="34" font-weight="bold" fill="#ffd028">2</text>
+  <text x="104" y="352" font-size="44" font-weight="bold" fill="#e8eaf2">It started / at 3 p.m.</text>
+  <text x="104" y="392" font-size="26" fill="#9aa0ae">午後3時に始まりました</text>
+  <line x1="60" y1="426" x2="1140" y2="426" stroke="#2e3346" stroke-width="2"/>
+
+  <text x="60" y="492" font-size="34" font-weight="bold" fill="#ffd028">3</text>
+  <text x="104" y="492" font-size="44" font-weight="bold" fill="#e8eaf2">We are investigating / now.</text>
+  <text x="104" y="532" font-size="26" fill="#9aa0ae">今、調査中です</text>
+  <line x1="60" y1="572" x2="1140" y2="572" stroke="#ffd028" stroke-width="2" opacity="0.6"/>
+
+  <text x="60" y="625" font-size="26" fill="#9aa0ae">原因は断定しない ─ 「何が」「いつから」「対応中」を伝える</text>
+</svg>

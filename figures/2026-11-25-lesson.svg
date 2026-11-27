@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" font-family="sans-serif">
+  <defs>
+    <marker id="arw" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#ffd028"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="675" rx="12" fill="#171a26"/>
+
+  <text x="40" y="72" font-size="44" font-weight="bold" fill="#e8eaf2">ハイパーバイザー ＝ <tspan fill="#ffd028">会議室の管理人</tspan></text>
+
+  <text x="60" y="130" font-size="28" fill="#e8eaf2">仮想マシン（VM）＝ 部屋 × 複数</text>
+
+  <rect x="60" y="150" width="200" height="180" rx="8" fill="none" stroke="#e8eaf2" stroke-width="3"/>
+  <text x="160" y="205" font-size="32" font-weight="bold" fill="#e8eaf2" text-anchor="middle">VM 1</text>
+  <text x="160" y="250" font-size="28" fill="#e8eaf2" text-anchor="middle">Linux</text>
+  <rect x="110" y="285" width="100" height="14" rx="3" fill="#e8eaf2" opacity="0.5"/>
+  <rect x="120" y="299" width="8" height="20" fill="#e8eaf2" opacity="0.5"/>
+  <rect x="192" y="299" width="8" height="20" fill="#e8eaf2" opacity="0.5"/>
+
+  <rect x="290" y="150" width="200" height="180" rx="8" fill="none" stroke="#e8eaf2" stroke-width="3"/>
+  <text x="390" y="205" font-size="32" font-weight="bold" fill="#e8eaf2" text-anchor="middle">VM 2</text>
+  <text x="390" y="250" font-size="28" fill="#e8eaf2" text-anchor="middle">Windows</text>
+  <rect x="340" y="285" width="100" height="14" rx="3" fill="#e8eaf2" opacity="0.5"/>
+  <rect x="350" y="299" width="8" height="20" fill="#e8eaf2" opacity="0.5"/>
+  <rect x="422" y="299" width="8" height="20" fill="#e8eaf2" opacity="0.5"/>
+
+  <rect x="520" y="150" width="200" height="180" rx="8" fill="none" stroke="#e8eaf2" stroke-width="3"/>
+  <text x="620" y="205" font-size="32" font-weight="bold" fill="#e8eaf2" text-anchor="middle">VM 3</text>
+  <text x="620" y="250" font-size="28" fill="#e8eaf2" text-anchor="middle">Linux</text>
+  <rect x="570" y="285" width="100" height="14" rx="3" fill="#e8eaf2" opacity="0.5"/>
+  <rect x="580" y="299" width="8" height="20" fill="#e8eaf2" opacity="0.5"/>
+  <rect x="652" y="299" width="8" height="20" fill="#e8eaf2" opacity="0.5"/>
+
+  <rect x="270" y="140" width="10" height="200" rx="3" fill="#ffd028"/>
+  <rect x="500" y="140" width="10" height="200" rx="3" fill="#ffd028"/>
+
+  <line x1="160" y1="395" x2="160" y2="345" stroke="#ffd028" stroke-width="5" marker-end="url(#arw)"/>
+  <line x1="390" y1="395" x2="390" y2="345" stroke="#ffd028" stroke-width="5" marker-end="url(#arw)"/>
+  <line x1="620" y1="395" x2="620" y2="345" stroke="#ffd028" stroke-width="5" marker-end="url(#arw)"/>
+
+  <rect x="60" y="400" width="660" height="90" rx="10" fill="#2a2d3d" stroke="#ffd028" stroke-width="4"/>
+  <text x="390" y="457" font-size="34" font-weight="bold" fill="#ffd028" text-anchor="middle">ハイパーバイザー（管理人）</text>
+
+  <rect x="60" y="520" width="660" height="110" rx="10" fill="#3a3e52" stroke="#e8eaf2" stroke-width="3"/>
+  <text x="390" y="572" font-size="34" font-weight="bold" fill="#e8eaf2" text-anchor="middle">ホスト ＝ 物理サーバー</text>
+  <text x="390" y="612" font-size="28" fill="#e8eaf2" text-anchor="middle">（土台・VMを乗せる側）</text>
+
+  <rect x="770" y="110" width="390" height="370" rx="10" fill="none" stroke="#e8eaf2" stroke-width="2" opacity="0.6"/>
+  <text x="965" y="162" font-size="34" font-weight="bold" fill="#e8eaf2" text-anchor="middle">管理人の仕事</text>
+
+  <text x="800" y="225" font-size="34" font-weight="bold" fill="#ffd028">① 作る</text>
+  <text x="940" y="225" font-size="28" fill="#e8eaf2">部屋＝VM</text>
+
+  <text x="800" y="295" font-size="34" font-weight="bold" fill="#ffd028">② 配る</text>
+  <text x="800" y="338" font-size="28" fill="#e8eaf2">CPU・メモリ</text>
+  <text x="800" y="376" font-size="28" fill="#e8eaf2">保存場所・通信</text>
+
+  <text x="800" y="445" font-size="34" font-weight="bold" fill="#ffd028">③ 分ける</text>
+  <text x="975" y="445" font-size="28" fill="#e8eaf2">＝ 壁</text>
+
+  <rect x="770" y="510" width="390" height="120" rx="10" fill="none" stroke="#e5484d" stroke-width="3"/>
+  <text x="965" y="560" font-size="30" font-weight="bold" fill="#e5484d" text-anchor="middle">注意：管理人が侵害</text>
+  <text x="965" y="606" font-size="28" fill="#e8eaf2" text-anchor="middle">→ 全VMに影響の恐れ</text>
+</svg>

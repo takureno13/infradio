@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" font-family="sans-serif">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#ffd028"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="675" rx="12" fill="#171a26"/>
+
+  <text x="40" y="70" font-size="42" font-weight="bold" fill="#e8eaf2">3階層構成 ＝ 役割ごとに別々の箱</text>
+
+  <rect x="40" y="110" width="8" height="100" fill="#e8eaf2"/>
+  <text x="62" y="152" font-size="32" font-weight="bold" fill="#e8eaf2">サーバー</text>
+  <text x="62" y="192" font-size="28" fill="#e8eaf2" opacity="0.75">＝調理台</text>
+
+  <rect x="40" y="258" width="8" height="74" fill="#e8eaf2"/>
+  <text x="62" y="290" font-size="32" font-weight="bold" fill="#e8eaf2">ネットワーク</text>
+  <text x="62" y="326" font-size="28" fill="#e8eaf2" opacity="0.75">＝通路</text>
+
+  <rect x="40" y="440" width="8" height="100" fill="#ffd028"/>
+  <text x="62" y="482" font-size="32" font-weight="bold" fill="#e8eaf2">ストレージ</text>
+  <text x="62" y="522" font-size="28" fill="#e8eaf2" opacity="0.75">＝食材倉庫</text>
+
+  <g stroke="#8a93b8" stroke-width="4">
+    <line x1="430" y1="220" x2="430" y2="265"/>
+    <line x1="740" y1="220" x2="740" y2="265"/>
+    <line x1="1050" y1="220" x2="1050" y2="265"/>
+    <line x1="430" y1="325" x2="430" y2="380"/>
+    <line x1="740" y1="325" x2="740" y2="380"/>
+    <line x1="1050" y1="325" x2="1050" y2="380"/>
+  </g>
+
+  <g fill="#232838" stroke="#e8eaf2" stroke-width="3">
+    <rect x="320" y="100" width="220" height="120" rx="8"/>
+    <rect x="630" y="100" width="220" height="120" rx="8"/>
+    <rect x="940" y="100" width="220" height="120" rx="8"/>
+  </g>
+  <g font-size="28" fill="#e8eaf2" text-anchor="middle">
+    <text x="430" y="142">ホスト1</text>
+    <text x="740" y="142">ホスト2</text>
+    <text x="1050" y="142">ホスト3</text>
+  </g>
+  <rect x="385" y="158" width="90" height="48" rx="6" fill="none" stroke="#ffd028" stroke-width="3"/>
+  <text x="430" y="192" font-size="28" fill="#ffd028" text-anchor="middle">VM</text>
+  <rect x="695" y="158" width="90" height="48" rx="6" fill="none" stroke="#ffd028" stroke-width="3" stroke-dasharray="8 6"/>
+  <text x="740" y="192" font-size="28" fill="#ffd028" text-anchor="middle" opacity="0.7">VM</text>
+  <line x1="482" y1="182" x2="686" y2="182" stroke="#ffd028" stroke-width="4" marker-end="url(#ah)"/>
+
+  <rect x="320" y="265" width="840" height="60" rx="8" fill="#2a3050" stroke="#8a93b8" stroke-width="3"/>
+  <line x1="335" y1="295" x2="1145" y2="295" stroke="#8a93b8" stroke-width="2" stroke-dasharray="14 10"/>
+  <rect x="470" y="276" width="230" height="38" fill="#2a3050"/>
+  <text x="585" y="305" font-size="28" fill="#e8eaf2" text-anchor="middle">ケーブルで接続</text>
+
+  <rect x="320" y="380" width="840" height="220" rx="10" fill="#232838" stroke="#ffd028" stroke-width="4"/>
+  <text x="740" y="424" font-size="32" font-weight="bold" fill="#ffd028" text-anchor="middle">共有ストレージ（1つの大きな倉庫）</text>
+
+  <g fill="#e8eaf2" stroke="none">
+    <path d="M395 445 h100 l25 25 v50 h-125 z"/>
+    <path d="M675 445 h100 l25 25 v50 h-125 z"/>
+    <path d="M955 445 h100 l25 25 v50 h-125 z"/>
+  </g>
+  <g font-size="28" font-weight="bold" fill="#171a26" text-anchor="middle">
+    <text x="457" y="503">VM1</text>
+    <text x="737" y="503">VM2</text>
+    <text x="1017" y="503">VM3</text>
+  </g>
+  <line x1="345" y1="524" x2="1135" y2="524" stroke="#8a93b8" stroke-width="6"/>
+  <text x="740" y="570" font-size="28" fill="#e8eaf2" text-anchor="middle">中身は「仮想ディスク＋設定ファイル」</text>
+
+  <text x="600" y="648" font-size="30" fill="#e8eaf2" text-anchor="middle">どのホストからでも同じファイルを読める → <tspan fill="#ffd028" font-weight="bold">引っ越しが楽</tspan></text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" font-family="sans-serif">
+  <rect x="0" y="0" width="1200" height="675" rx="12" ry="12" fill="#171a26"/>
+
+  <text x="60" y="46" font-size="20" fill="#9aa0ae">今日の英語：朝会で今の作業を伝える</text>
+  <text x="60" y="96" font-size="40" font-weight="bold" fill="#ffd028">朝会やチャットで「今やっていること」を伝える</text>
+  <line x1="60" y1="118" x2="1140" y2="118" stroke="#3a3f52" stroke-width="2"/>
+
+  <text x="60" y="172" font-size="44" font-weight="bold" fill="#e8eaf2">I'm working on / the network settings.</text>
+  <text x="60" y="206" font-size="26" fill="#9aa0ae">ネットワークの設定に取り組んでいます</text>
+  <text x="1140" y="206" font-size="21" fill="#7f8aa8" text-anchor="end">working on ＋ 作業の対象 ＝「〜に取り組んでいる」</text>
+
+  <text x="60" y="264" font-size="44" font-weight="bold" fill="#e8eaf2">I'm looking into / the login error.</text>
+  <text x="60" y="298" font-size="26" fill="#9aa0ae">ログインエラーを調べています</text>
+  <text x="1140" y="298" font-size="21" fill="#7f8aa8" text-anchor="end">looking into ＝「〜を調べている」（原因がまだ分からない段階）</text>
+
+  <text x="60" y="356" font-size="44" font-weight="bold" fill="#e8eaf2">I'm stuck on / the firewall config.</text>
+  <text x="60" y="390" font-size="26" fill="#9aa0ae">ファイアウォールの設定でつまずいています</text>
+  <text x="1140" y="390" font-size="21" fill="#7f8aa8" text-anchor="end">stuck on ＝「〜で動けなくなっている」（助けがほしいとき）</text>
+
+  <line x1="60" y1="414" x2="1140" y2="414" stroke="#3a3f52" stroke-width="2"/>
+
+  <text x="60" y="448" font-size="24" font-weight="bold" fill="#ffd028">会話例</text>
+  <text x="1140" y="448" font-size="21" fill="#7f8aa8" text-anchor="end">though ＝ 文の最後で「ただ、〜だけど」</text>
+
+  <text x="60" y="490" font-size="30" fill="#e8eaf2">A: What are you working on today?</text>
+  <text x="590" y="490" font-size="22" fill="#9aa0ae">（今日は何をやっているの？）</text>
+
+  <text x="60" y="532" font-size="30" fill="#e8eaf2">B: I'm working on / the server migration.</text>
+  <text x="104" y="570" font-size="30" fill="#e8eaf2">I'm stuck on / the firewall config, though.</text>
+  <text x="104" y="602" font-size="22" fill="#9aa0ae">サーバーの移行に取り組んでいます。ただ、ファイアウォールの設定でつまずいています</text>
+
+  <line x1="60" y1="622" x2="1140" y2="622" stroke="#3a3f52" stroke-width="2"/>
+
+  <text x="60" y="655" font-size="24" fill="#e8eaf2"><tspan fill="#ffd028" font-weight="bold">まとめ：</tspan>取り組む＝working on　／　調べる＝looking into　／　つまずく＝stuck on</text>
+</svg>
